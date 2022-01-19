@@ -13,7 +13,7 @@
     transition: .2s linear;
             }
             body {
-                    background-image: url(./image/gold.jpg);   
+                    background-color: #e3d5ca;   
                 background-size: cover;
                 background-position: center;
                 padding-top: 70px;
@@ -30,7 +30,7 @@
     
         header {
             position: fixed;
-            background: palevioletred;
+            background: #cb997e;
             display: flex;
             align-items: center;
             top: 0; left: 0; right: 0;
@@ -59,7 +59,7 @@
         }
         
         header .navbar a:hover{
-                color: violet;
+                color: white;
                     }
          header .icons a{
              font-size: 1.5rem;
@@ -67,7 +67,7 @@
              margin-left: 1.5rem;
                     }
          header .icons a:hover{                        
-             color: violet;
+             color: white;
             }
             header #toggler{
                 display: none;
@@ -106,8 +106,8 @@
 
     .btn{
      padding: 8px;
-    background-color: palevioletred;
-    width:50%;
+    background-color: #cb997e;
+    width:30%;
     margin:12px auto; 
     }
      .form-row {
@@ -120,7 +120,7 @@
                     }
      .form-group-row{
          justify-content: center;
-           width: 100%; 
+           width: 150%; 
            /* margin: 16px 16px; */
            box-sizing: border-box;
            padding-left: 40px ;
@@ -151,29 +151,21 @@
        font-size: medium;
    }
 
-     .headings{
-         margin-top: 100px;  
-         text-align: center;
-         font-family: Verdana, Geneva, Tahoma, sans-serif;
-         font-style: oblique;
-         font-size: larger;
-         
+    .products-table{
+        padding-top: 70px;
+        margin-left: 70px;
+    } 
+    .title-about{
+        font-size: 4rem;
+        padding-top: 100px;
+        justify-content: center;
+        margin-left: 100px;
+        text-align: left;
+        
+    }
+    .item5{
+        text-align: center;
+        padding-top: 70px;
+    }
 
-     }
-     .headings h1{
-         font-weight: bolder;
-         font-size: x-large;
-         padding: 10px 20px;
-         font-weight: 500;
-         font-size: 2.2rem;
-         
-         
-     }
-     .testimony{
-         padding-top: 20px;
-         text-align: left;
-     }
-     .star{
-         display: flex;
-     }
-     
+   
