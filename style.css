@@ -1,0 +1,179 @@
+
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline:none ;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+            }
+            body {
+                    background-image: url(./image/gold.jpg);   
+                background-size: cover;
+                background-position: center;
+                padding-top: 70px;
+            }
+        html{
+            font-size: 62.5%;
+            scroll-behavior: smooth;
+            scroll-padding-top: 6rem;
+            overflow-x: hidden;
+        }
+        section{
+            padding: 2rem 9%;
+        }
+    
+        header {
+            position: fixed;
+            background: palevioletred;
+            display: flex;
+            align-items: center;
+            top: 0; left: 0; right: 0;
+            padding: 2rem 9% ;
+            justify-content: space-between;
+            z-index: 1000;
+            box-shadow: 0 .5rem 1rem rgba(0,0,0.1);
+                    }
+         
+        header .navbar a{
+           font-size: 2rem;
+           padding: 0 1.5rem;
+           color: white;
+           text-align: center;
+           text-decoration: none;
+                   }
+
+        
+        header .logo{
+            font-size: 3rem;
+            color: white;
+            font-weight: bolder;
+        }
+        header .logo span{
+            color: var(--pink);
+        }
+        
+        header .navbar a:hover{
+                color: violet;
+                    }
+         header .icons a{
+             font-size: 1.5rem;
+             color:  black;
+             margin-left: 1.5rem;
+                    }
+         header .icons a:hover{                        
+             color: violet;
+            }
+            header #toggler{
+                display: none;
+            }
+          header .fa-bars{
+              font-size: 3rem;
+              color: white;
+              border-radius: .5rem;
+              padding: .5rem 1.5rem;
+              cursor: pointer;
+              border:.1rem solid #fff;
+              
+          }
+        .homepage-main{
+        width: 100%;
+        display: flex;
+        
+        }
+        .home-text {
+            text-align: center;
+            width: 60%;
+            height: auto;
+            margin-top: 190px;
+            margin-right: 90px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-style: oblique;
+            padding-left: 60px;
+        
+        }
+    #image1{
+        
+        width: 100%;
+        height: auto;
+           
+    }
+
+    .btn{
+     padding: 8px;
+    background-color: palevioletred;
+    width:50%;
+    margin:12px auto; 
+    }
+     .form-row {
+          justify-content: center;
+           width: 100%; 
+           margin: 16px 16px;
+           box-sizing: border-box;
+           padding-left: 40px ;
+           border-radius: 4px;
+                    }
+     .form-group-row{
+         justify-content: center;
+           width: 100%; 
+           /* margin: 16px 16px; */
+           box-sizing: border-box;
+           padding-left: 40px ;
+           border-radius: 4px;
+     }
+     .row {
+         width: 100%;
+     }
+     .Login-col{
+         width:100%;
+     }
+     .row-items{
+         width: 50%;
+         margin-left: 300px;
+         font-style: oblique;
+     }
+   .table-container{
+       margin: 16px 16px;
+   }
+   .text-container{
+       font-size: larger;
+       text-align: center;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-style: oblique;
+       padding-top: 50px;
+   }
+   .mb-3{
+       font-size: medium;
+   }
+
+     .headings{
+         margin-top: 100px;  
+         text-align: center;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-style: oblique;
+         font-size: larger;
+         
+
+     }
+     .headings h1{
+         font-weight: bolder;
+         font-size: x-large;
+         padding: 10px 20px;
+         font-weight: 500;
+         font-size: 2.2rem;
+         
+         
+     }
+     .testimony{
+         padding-top: 20px;
+         text-align: left;
+     }
+     .star{
+         display: flex;
+     }
+     
