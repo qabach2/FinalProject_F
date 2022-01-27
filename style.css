@@ -18,6 +18,16 @@
                 background-position: center;
                 padding-top: 70px;
             }
+            .homepage-main { 
+            /* grid-area: menu; */
+         height: 500px;
+         background-image: url(./image/map.jpg);
+         background-size: 100%;
+         padding: 20px 40px;
+         background-repeat: no-repeat;
+ }
+ 
+   
         html{
             font-size: 62.5%;
             scroll-behavior: smooth;
@@ -90,8 +100,9 @@
             text-align: center;
             width: 60%;
             height: auto;
-            margin-top: 190px;
+            margin-top: 30px;
             margin-right: 90px;
+            margin-left: 250px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-style: oblique;
             padding-left: 60px;
@@ -152,20 +163,43 @@
    }
 
     .products-table{
-        padding-top: 70px;
+        padding-top: 16px;
         margin-left: 70px;
     } 
+
+    .product-table p{
+        margin-right: 70px;
+    }
     .title-about{
         font-size: 4rem;
-        padding-top: 100px;
+        padding-top: 50px;
         justify-content: center;
         margin-left: 100px;
-        text-align: left;
+        text-align: justify;
+        padding-bottom: 10px;
         
     }
     .item5{
         text-align: center;
-        padding-top: 70px;
+        padding-top: 50px;
     }
-
-   
+/* home page css */
+/* .item2 { grid-area: menu;
+         height: 400px;
+         background-image: url(./image/hero.jpg);
+         background-size: 100%;
+         padding: 20px 40px;
+         background-repeat: no-repeat;
+ }
+.item3 { grid-area: main;
+          background-color: #335;
+          padding: 20px;
+ }
+.item4 { grid-area: right;
+          background-color: #335;
+          padding: 20px;
+ }
+.item5 { grid-area: footer;
+        background-image:  linear-gradient( #776,#112);
+   }
+    */
